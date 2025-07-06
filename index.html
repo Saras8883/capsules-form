@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>טופס שיתוף – קפסולת ידע</title>
+  <style>
+    body { font-family: Arial, sans-serif; direction: rtl; padding: 20px; background: #f9f9f9; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
+    button { margin-top: 20px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+
+  <h2>🧠 טופס שיתוף – קפסולת ידע</h2>
+  <p>במסגרת מיזם "קפסולת ידע שבועית", אנו מזמינים אותך לשתף טיפ קצר, כלי יישומי או תובנה מקצועית שצברת בעבודתך. המטרה – להפוך ידע סמוי לגלוי ולהפיץ כלים מעשיים בין כלל עובדי המשרד.</p>
+
+  <form>
+    <label>שם העובד:</label>
+    <input type="text" name="שם העובד">
+
+    <label>יחידה:</label>
+    <input type="text" name="יחידה">
+
+    <label>תפקיד:</label>
+    <input type="text" name="תפקיד">
+
+    <label>כותרת (שם קצר לקפסולה):</label>
+    <input type="text" name="כותרת">
+
+    <label>הטיפ / השיטה / התובנה שברצונך לשתף:</label>
+    <textarea rows="4" name="תובנה"></textarea>
+
+    <label>היכן וכיצד יושמה בפועל:</label>
+    <textarea rows="3" name="יישום בפועל"></textarea>
+
+    <label>הצעה ליישום אצל אחרים (אם יש):</label>
+    <textarea rows="3" name="הצעה"></textarea>
+
+    <label>תאריך צפוי לשליחה:</label>
+    <input type="date" name="תאריך">
+
+    <button type="submit">שלח</button>
+  </form>
+
+</body>
+</html>
